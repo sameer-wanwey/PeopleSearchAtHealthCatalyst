@@ -1,0 +1,43 @@
+﻿<form id="searchForm">
+    <div class="searchArea">
+        <input id="txtSearchPerson" maxlength="25" name="txtSearchPerson" type="text" value="Type to search" onfocus="if (this.value == 'Type to search') { this.value = ''; }" onblur="if (this.value='') { this.value='Type to search' ; }" />&nbsp;&nbsp;
+        <button type="submit" class="button" id="btnSearch" ng-click="Search()">Search</button>&nbsp;&nbsp;
+        <button type="submit" class="button" id="btnDelayInSearch" ng-click="DelayInSearch()">Delay in Search</button>
+    </div>
+    <div id="imgLoading">
+        <img class="hidden loading" src="/Content/Images/loading.gif" />
+    </div>
+    <table class="table" id="tblResult">
+        <thead id="trHeader">
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Age(Yr)
+                </th>
+                <th>
+                    Address
+                </th>
+                <th>
+                    Interest
+                </th>
+                <th>
+                    Image
+                </th>
+            </tr>
+        </thead>
+        <tbody id="resultSet">
+            <tr>
+                <td>{{Person.FirstName + ' '  +Person.LastName}}</td>
+                <td>{{Person.Age}}</td>
+                <td>{{Person.Address1 + ' ' + Person.Address2 + ' ' + Person.City + ' ' + Person.State + ' ' + Person.PostalCode}}</td>
+                <td>{{Person.Interest}}</td>
+                <td><img src='/Content/Images/{{Person.Id}}.jpg' /></td>
+            </tr>
+        </tbody>
+    </table>
+    <script language="javascript" type="text/javascript">
+        
+    </script>
+</form>
