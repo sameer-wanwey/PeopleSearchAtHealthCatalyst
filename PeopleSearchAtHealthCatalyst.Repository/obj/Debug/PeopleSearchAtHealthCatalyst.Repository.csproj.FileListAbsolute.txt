@@ -1,0 +1,15 @@
+c:\users\samee\onedrive\documents\visual studio 2015\Projects\PeopleSearchAtHealthCatalyst.Repository\bin\Debug\PeopleSearchAtHealthCatalyst.Repository.dll
+c:\users\samee\onedrive\documents\visual studio 2015\Projects\PeopleSearchAtHealthCatalyst.Repository\bin\Debug\PeopleSearchAtHealthCatalyst.Repository.pdb
+c:\users\samee\onedrive\documents\visual studio 2015\Projects\PeopleSearchAtHealthCatalyst.Repository\obj\Debug\PeopleSearchAtHealthCatalyst.Repository.csprojResolveAssemblyReference.cache
+c:\users\samee\onedrive\documents\visual studio 2015\Projects\PeopleSearchAtHealthCatalyst.Repository\obj\Debug\PeopleSearchAtHealthCatalyst.Repository.dll
+c:\users\samee\onedrive\documents\visual studio 2015\Projects\PeopleSearchAtHealthCatalyst.Repository\obj\Debug\PeopleSearchAtHealthCatalyst.Repository.pdb
+c:\users\samee\onedrive\documents\visual studio 2015\Projects\PeopleSearchAtHealthCatalyst.Repository\bin\Debug\EntityFramework.dll
+c:\users\samee\onedrive\documents\visual studio 2015\Projects\PeopleSearchAtHealthCatalyst.Repository\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\samee\onedrive\documents\visual studio 2015\Projects\PeopleSearchAtHealthCatalyst.Repository\bin\Debug\EntityFramework.xml
+c:\users\samee\onedrive\documents\visual studio 2015\Projects\PeopleSearchAtHealthCatalyst.Repository\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\samee\onedrive\documents\visual studio 2015\Projects\PeopleSearchAtHealthCatalyst.Repository\bin\Debug\PeopleSearchAtHealthCatalyst.Model.dll
+c:\users\samee\onedrive\documents\visual studio 2015\Projects\PeopleSearchAtHealthCatalyst.Repository\bin\Debug\PeopleSearchAtHealthCatalyst.Model.pdb
+c:\users\samee\onedrive\documents\visual studio 2015\Projects\PeopleSearchAtHealthCatalyst.Repository\obj\Debug\PeopleSearchAtHealthCatalyst.Repository.Migrations.First.resources
+c:\users\samee\onedrive\documents\visual studio 2015\Projects\PeopleSearchAtHealthCatalyst.Repository\obj\Debug\PeopleSearchAtHealthCatalyst.Repository.csproj.GenerateResource.Cache
+c:\users\samee\onedrive\documents\visual studio 2015\Projects\PeopleSearchAtHealthCatalyst.Repository\obj\Debug\PeopleSearchAtHealthCatalyst.Repository.Migrations.AddedAge.resources
+c:\users\samee\onedrive\documents\visual studio 2015\Projects\PeopleSearchAtHealthCatalyst.Repository\obj\Debug\PeopleSearchAtHealthCatalyst.Repository.Migrations.datetime2.resources
