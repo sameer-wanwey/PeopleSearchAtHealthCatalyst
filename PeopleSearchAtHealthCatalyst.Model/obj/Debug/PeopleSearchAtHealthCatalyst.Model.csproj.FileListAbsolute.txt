@@ -1,0 +1,5 @@
+C:\Users\samee\OneDrive\Documents\Visual Studio 2015\Projects\PeopleSearchAtHealthCatalyst.Model\bin\Debug\PeopleSearchAtHealthCatalyst.Model.dll
+C:\Users\samee\OneDrive\Documents\Visual Studio 2015\Projects\PeopleSearchAtHealthCatalyst.Model\bin\Debug\PeopleSearchAtHealthCatalyst.Model.pdb
+C:\Users\samee\OneDrive\Documents\Visual Studio 2015\Projects\PeopleSearchAtHealthCatalyst.Model\obj\Debug\PeopleSearchAtHealthCatalyst.Model.dll
+C:\Users\samee\OneDrive\Documents\Visual Studio 2015\Projects\PeopleSearchAtHealthCatalyst.Model\obj\Debug\PeopleSearchAtHealthCatalyst.Model.pdb
+C:\Users\samee\OneDrive\Documents\Visual Studio 2015\Projects\PeopleSearchAtHealthCatalyst.Model\obj\Debug\PeopleSearchAtHealthCatalyst.Model.csprojResolveAssemblyReference.cache
