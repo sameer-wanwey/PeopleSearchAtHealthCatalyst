@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html ng-app="angularApp">
+<head>
+    
+    <title>@ViewBag.Title - Health Catalyst</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    <script src="~/Scripts/angular.min.js"></script>
+    <script src="~/Scripts/AngularApp/AngularApp.js"></script>
+    <script src="~/Scripts/AngularApp/PeopleSearch/PSAController.js"></script>
+    <script src="~/Scripts/AngularApp/PeopleSearch/PSADirective.js"></script>
+    <script src="~/Scripts/AngularApp/PeopleSearch/PSAService.js"></script>
+</head>
+<body ng-controller="PSAController">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Using Angular", "AngularPeopleSearch", "Home")</li>
+                    <li>@Html.ActionLink("About", "About", "Home")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - Health Catalyst</p>
+        </footer>
+    </div>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

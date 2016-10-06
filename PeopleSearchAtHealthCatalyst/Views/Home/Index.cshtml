@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "People Search";
+}
+
+
+<div class="jumbotron">
+    <h1>People Search</h1>
+</div>
+<form id="searchForm">
+    <div class="searchArea">
+        <input id="txtSearchPerson" name="txtSearchPerson" type="text" value="Type to search" onfocus="if (this.value == 'Type to search') { this.value = ''; }" onblur="    if (this.value == '') { this.value = 'Type to search'; }">&nbsp;&nbsp;
+        <button type="submit" class="button" id="btnSearch">Search</button>&nbsp;&nbsp;
+        <button type="submit" class="button" id="btnDelayInSearch">Delay in Search</button>
+    </div>
+    <div id="imgLoading">
+        <img class="hidden; loading"  src="~/Content/Images/loading.gif" />
+    </div>
+</form>
+    <table class="table" id="tblResult">
+        <thead id="trHeader">
+            <tr>
+                <th>
+                    Name
+                </th>
+                <th>
+                    Age(Yr)
+                </th>
+                <th>
+                    Address
+                </th>
+                <th>
+                    Interest
+                </th>
+                <th>
+                    Image
+                </th>
+            </tr>
+        </thead>
+        <tbody id="resultSet"></tbody>
+    </table>
